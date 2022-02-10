@@ -45,6 +45,7 @@ nav ul li a{
     text-decoration: none;
     padding: 6px;
     border-radius: 12px;
+    margin-left: 100px;
 }
 
 .uno{
@@ -68,7 +69,7 @@ nav ul li a{
     text-align: center;
     margin-top: 75px;
     font-size: 1.5em;
-    
+    padding: 10px;
 }
 
 .bblack{
@@ -104,9 +105,17 @@ nav ul li a{
     clear: both;
 }
 
+.maxcontainer{
+    max-width: 100%;
+    height: 40%;
+    margin: auto;
+}
+
 .colonna1{
+   width: 65%; 
    float: left;
-   margin-top: 62px;
+   height: 440px;
+   
 }
 
 .contimg2{
@@ -115,12 +124,15 @@ nav ul li a{
 }
 
 .colonna2{
+    height: 440px;
+    width: 25%;
     display: inline;
+    margin-top: 100px;
 }
 
 .titolo2{
     display: inline;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -175,7 +187,7 @@ nav ul li a{
 }
 
 .box{
-    height: 620px;
+    height: 520px;
     width: 100%;
     background-color: rgb(17, 17, 17, 0.8);
 }
@@ -213,9 +225,6 @@ hr{
 }
 
 footer{
-    height: 300px;
     width: 100%;
     background-color: rgb(17, 17, 17, 0.8);;
 }
-
-
