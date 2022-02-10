@@ -181,7 +181,6 @@ nav ul li a{
 }
 
 .colonna{
-    border: 1px solid red;
     width: 20%;
     height: 70%;
     float: left;
@@ -200,11 +199,19 @@ hr{
 .listabianca{
     color: white;
     margin-top: 10px;
+    list-style-type: none;
 }
 
 #flag{
     height: 24px;
     width: 35px;
 }
+
+.listabianca a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
