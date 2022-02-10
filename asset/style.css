@@ -145,3 +145,33 @@ nav ul li a{
     margin: auto;
     width: 70%;
 }
+
+#dimensioni2{
+   height: 300px;
+   position: relative;
+}
+
+.titoloimg2{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+#cornice{
+   height: 27px; 
+   position: absolute;
+   bottom: 36%;
+}
+
+.titolone2{
+    font-size: 1.1em;
+}
+
+.n2{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    background-color: rgba(68, 107, 190, 0.479);
+}
+
+
