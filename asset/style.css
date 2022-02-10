@@ -94,7 +94,7 @@ nav ul li a{
     margin-top: 100px;
 }
 
-.seconda{
+.dimensioni{
     height: 620px;
 }
 
@@ -104,18 +104,26 @@ nav ul li a{
     clear: both;
 }
 
-#img1{
-    float: left;
+.colonna1{
+   float: left;
+   margin-top: 62px;
 }
 
-.contenitesto{
-    float: left;
+.contimg2{
+    float: right;
+    margin-top: 62px;
 }
 
-strong{
-    font-size: 3em;
+.colonna2{
+    display: inline;
 }
 
-#paragrafos2{
+.titolo2{
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.paragrafo2{
     font-size: 1.5em;
 }
