@@ -212,6 +212,10 @@ hr{
     color: white;
 }
 
-
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(17, 17, 17, 0.8);;
+}
 
 
