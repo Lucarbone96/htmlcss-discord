@@ -100,7 +100,7 @@ nav ul li a{
     width: 100%;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -122,8 +122,12 @@ nav ul li a{
 
 .colonna2{
     width: calc( 100% / 2);
-    display: inline;
     padding: 20px 0;
+    float: left;
+}
+
+.imgfirst{
+    width: 100%;
 }
 
 .colospecialr{
@@ -137,7 +141,7 @@ nav ul li a{
 }
 
 .titolo2{
-    display: inline;
+    padding-top: 30px;
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -146,9 +150,23 @@ nav ul li a{
     font-size: 1.5em;
 }
 
-.Titoloimg{
+.cornice{
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    padding-bottom: 30px;
     text-align: center;
+}
+
+.Titoloimg{
     padding: 10px;
+    text-align: center;
 }
 
 .titolone{
