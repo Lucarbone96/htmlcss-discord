@@ -126,6 +126,16 @@ nav ul li a{
     padding: 20px 0;
 }
 
+.colospecialr{
+    width: calc( 100% / 2);
+    float: right;    
+}
+
+.colospeciall{
+    width: calc( 100% / 2);
+    float: left;
+}
+
 .titolo2{
     display: inline;
     font-size: 2.5em;
@@ -206,3 +216,16 @@ footer{
     width: 100%;
     background-color: rgb(17, 17, 17, 0.8);;
 }
+
+.colonnina{
+    display: inline-block;
+}
+
+.first{
+    float: left;
+}
+
+.third{
+    float: right;
+}
+
